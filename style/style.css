@@ -1,0 +1,42 @@
+#logo{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+#header{
+    background-image: linear-gradient(to left, rgb(7, 123, 201), rgb(0, 128, 87));
+    border-radius: 20px;
+}
+#SearchForm{
+    color: rgb(218, 230, 234);
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+#showingResultsDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.495);
+
+}
+#showingResultsDiv>div{
+    width: 400px;
+}
+body{
+    overflow-x: hidden;
+}
+
+footer{
+    background-image: linear-gradient(to left, rgb(7, 123, 201), rgb(0, 128, 87));
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 50px;
+    
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TMBD</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <script type="module" src="./script.js"></script>
+    <script src="./animation/" defer></script>
+    <script src="./animation/" defer></script>
+  </head>
+  
+  <body>
+    <header id="header">
+    <div id="logo">
+      <h1 id="logoh1">TMBD</h1>
+    </div>
+
+    <div id="SearchForm">
+      <div id="form">
+        <form>
+          <input type="text" placeholder="write person/movie" required />
+
+          <input type="radio" id="radioPerson" name="rb" />
+          <label for="radioPerson"> Person</label>
+
+          <input type="radio" id="radioMovie" name="rb" />
+          <label for="radioMovie"> Movie</label>
+
+          <button>Search</button>
+        </form>
+      </div>
+
+      <div id="buttonTopPop">
+        <button id="topButn">Top Rated</button>
+        <button id="popButn">Popular</button>
+      </div>
+    </div>
+    </header>
+
+    <div id="showingResultsDiv"></div>
+
+    <footer>
+       
+    </footer>
+
+  </body>
+</html>
